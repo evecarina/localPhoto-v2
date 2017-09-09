@@ -1,0 +1,105 @@
+body {
+  background-color: white;
+  color:black;
+}
+
+.hero1 {
+    width: 100%;
+    height:500px;
+    position: relative;
+    background: url('../img/hero.jpg') no-repeat bottom center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+
+}
+.hero1 div{
+  margin-top: 10px;
+  margin-left: 10px;
+ }
+
+.imagenes{
+  margin-top: 10px;
+}
+
+
+img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: underline;
+  color: green;
+  margin-bottom: 30px;
+}
+
+#bannerflog img {
+  height: 100px;
+}
+h1, p{
+  color: DeepPink ;
+}
+h1{
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+textarea, input{
+  width: 100%;
+  border-radius: 0px;
+  border: 1px solid DeepPink;
+  margin-bottom: 20px;
+}
+
+.posteo {
+  color: DeepPink;
+}
+.posteo strong{
+  display: block;
+}
+.posteo hr {
+  border: 1px solid DeepPink;
+}
+/* PARA CORAZON */
+.corazon {
+  font-size: 40px;
+  color: gray;
+  text-align: center;
+}
+.rojo {
+  color: red;
+}
+footer{
+  padding: 10px;
+}
+
+
+
+/* Estilos comentarios */
+ .col-md-12 {
+  margin-left:40%;
+}
+#comentario p{
+ margin-left: 25%;
+}
+#ale div{
+    background-color:#E3F6CE;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+ h2, h3{
+    color:#FFf;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+}
+p{
+  color:#000;
+    font-size: 1.5em;
+ }
+ #caja h3{
+  color: #0A0A2A;
+ }
